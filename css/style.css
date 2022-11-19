@@ -1,0 +1,182 @@
+/* content page */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img:hover{
+    /* background-color: rgb(78, 138, 194); */
+    transform: scale(1.1);
+    box-shadow: 10px 15px 10px #999;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 15px 10px #999;
+}
+.capstone:hover{
+    transform: none;
+}
+.active:hover{
+    transform: scale(1.1);
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.logo1:hover{
+    transform: none;
+    box-shadow: none;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+}
+.logo1{
+    width: 65px;
+    height: 65px;
+}
+.aboutme{
+    width: 100px;
+    height: 100px;
+}
+.capstone{
+    width: 286px;
+    height: 286px;
+}
+
+li a{
+    color: rgb(26, 26, 37);
+}
+.quote{
+    font-style: italic;
+    font-weight: bold;
+}
+.big-text{
+    font-size: 30px;
+    /* font-style: italic; */
+    margin: 20px 0;
+    color: rgb(72, 146, 230);
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background: transparent;
+    /* border: 1px solid rgb(82, 184, 82); */
+    color: black;
+
+}
+
+
+a.btn:hover{
+    /* background: rgb(82, 184, 82); */
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+.banner-info, .banner-image{
+    margin: 30px 0;
+
+}
+
+.img-responsive{
+    border-radius: 90px;
+    max-width: 630px;
+    display:block;
+    
+}
+
+
+/* end content page */
+
+/* animation 1 */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 37px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* end */
+
+
+
+
+/* animation 2 */
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    
+  }
+/* end */
